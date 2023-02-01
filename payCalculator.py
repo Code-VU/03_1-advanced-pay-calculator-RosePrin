@@ -3,12 +3,12 @@ def calculatePay():
     try:
         hrs = float(input('Enter Hours: '))
     except:
-        hrs = float(input('Error, please enter numeric input: '))
+        hrs = float(input('Error, please enter numeric input\n'))
 
     try:
         rate = float(input('Enter Rate: '))
     except:
-        rate = float(input('Error, please enter numeric input: '))
+        rate = float(input('Error, please enter numeric input\n'))
 
     ot_rate = rate * 1.5
     if hrs <= 40:
